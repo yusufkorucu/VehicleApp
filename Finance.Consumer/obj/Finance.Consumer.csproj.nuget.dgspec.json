@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ykorucu/RiderProjects/Project/VehicleHistoryApp/Finance.Consumer/Finance.Consumer.csproj": {}
+  },
+  "projects": {
+    "/Users/ykorucu/RiderProjects/Project/VehicleHistoryApp/Finance.Consumer/Finance.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ykorucu/RiderProjects/Project/VehicleHistoryApp/Finance.Consumer/Finance.Consumer.csproj",
+        "projectName": "Finance.Consumer",
+        "projectPath": "/Users/ykorucu/RiderProjects/Project/VehicleHistoryApp/Finance.Consumer/Finance.Consumer.csproj",
+        "packagesPath": "/Users/ykorucu/.nuget/packages/",
+        "outputPath": "/Users/ykorucu/RiderProjects/Project/VehicleHistoryApp/Finance.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ykorucu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.hepsiburada.com/api/v4/projects/1098/packages/nuget/index.json": {},
+          "https://gitlab.hepsiburada.com/api/v4/projects/2417/packages/nuget/index.json": {},
+          "https://gitlab.hepsiburada.com/api/v4/projects/5778/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
